@@ -11,8 +11,8 @@ package javaapplication3;
 public class Reptile extends Animal {
  
  public Reptile(String name, double weight, double price) {
-      this.name = name;
-      this.weight = weight;
-      this.price = price;
+      super.setName(name);
+      super.setWeight(weight);
+      super.setPrice(price);
    }
 }
