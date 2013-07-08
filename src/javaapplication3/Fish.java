@@ -11,9 +11,9 @@ package javaapplication3;
 public class Fish extends Animal {
  
  public Fish(String name, double weight, double price) {
-      this.name = name;
-      this.weight = weight;
-      this.price = price;
+      super.setName(name);
+      super.setWeight(weight);
+      super.setPrice(price);
  }
  
 }
