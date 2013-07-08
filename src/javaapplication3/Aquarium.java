@@ -11,13 +11,13 @@ package javaapplication3;
 public class Aquarium {
     private double weight = 0;
     private double price = 0;
-    public void addReptile(Reptile r){
-       price += r.getPrice();
-       weight += r.getWeight();
+    public void addReptile(Animal a){
+       price += a.getPrice();
+       weight += a.getWeight();
     }
-    public void addFish(Fish f){
-        price += f.getPrice();
-        weight += f.getWeight();
+    public void addFish(Animal a){
+        price += a.getPrice();
+        weight += a.getWeight();
     }
      public double getWeight() {
       return weight;
