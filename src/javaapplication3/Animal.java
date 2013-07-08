@@ -9,10 +9,10 @@ package javaapplication3;
  * @author ww
  */
 public class Animal {
-    
-   public String name;
-   public double weight;
-   public double price;
+    //Encapsulation
+   private String name;
+   private double weight;
+   private double price;
 
    public void setName(String name) {
       this.name = name;
