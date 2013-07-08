@@ -15,8 +15,8 @@ public class JavaApplication3 {
      */
     public static void main(String[] args) {
            Aquarium aq = new Aquarium(); //Создать аквариум
-           Fish f1 = new Fish("FishName", 20.1, 232.0); //Данные инициализации объектов передавать с помощью конструктора
-           Reptile r1 = new Reptile("ReptileName", 100.5, 555.0); 
+           Animal f1 = new Fish("FishName", 20.1, 232.0); //Данные инициализации объектов передавать с помощью конструктора
+           Animal r1 = new Reptile("ReptileName", 100.5, 555.0); // Polymorphism
            aq.addFish(f1);
            aq.addReptile(r1);
            System.out.println("Weight of aquarium with aquarium animals: "+ aq.getWeight() + "\nPrice of aquarium with aquarium animals:  " + aq.getPrice());
